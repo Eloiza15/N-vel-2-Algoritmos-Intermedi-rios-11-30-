@@ -17,9 +17,11 @@ int main() {
           	printf("%i ", n2);
 			n4 = n2 + n3;
           	n2 = n3;
-          	n3 = n4;              	
+          	n3 = n4;
+                 	
 	}
-           
-    printf("\n");   
+              
+    printf("\n");  
+	 
     return 0;
 }
