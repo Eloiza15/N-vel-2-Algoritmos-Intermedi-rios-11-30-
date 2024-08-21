@@ -12,19 +12,20 @@ int main() {
  
      printf("Digite um número para determinarmos se ele é primo: ");
       scanf("%d", &num);
- 
+      
+
  for (i = 2; i <= num / 2; i++) {
-    if (num % i == 0) {
+    if (num % i == 0) { 
        resultado++;
        break;
     }
  }
- 
- if (resultado == 0)
+
+ if (resultado == 0 & num >= 2 ){
     printf("%d é um número primo\n", num);
- else
+ }else
     printf("%d não é um número primo\n", num);
- 
+
  return 0;
 
 }
